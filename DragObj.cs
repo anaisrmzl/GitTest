@@ -15,7 +15,7 @@ public class DragObj : MonoBehaviour {
 	private AudioSource camAudio;
 	private float distanceFromCamera;
 	private bool firstTime = true;
-
+	private int test;
 	private SpriteRenderer sr;
 	private BoxCollider2D childCollider;
 	private Vector3 stageDimensions;
