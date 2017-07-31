@@ -11,8 +11,8 @@ public class DragObj : MonoBehaviour {
 	public bool nomatch = true;
 	public float scaleValue;//0.7f
 	public float finalScale;// 0.425f
-	Rigidbody2D r;
-	AudioSource camAudio;
+	private Rigidbody2D r;
+	private AudioSource camAudio;
 	private float distanceFromCamera;
 	private bool firstTime = true;
 
