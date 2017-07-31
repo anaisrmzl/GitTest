@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,8 +13,8 @@ public class DragObj : MonoBehaviour {
 	public float finalScale;// 0.425f
 	Rigidbody2D r;
 	AudioSource camAudio;
-	float distanceFromCamera;
-	bool firstTime = true;
+	private float distanceFromCamera;
+	private bool firstTime = true;
 
 	SpriteRenderer sr;
 	BoxCollider2D childCollider;
