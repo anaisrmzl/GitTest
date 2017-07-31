@@ -16,9 +16,9 @@ public class DragObj : MonoBehaviour {
 	private float distanceFromCamera;
 	private bool firstTime = true;
 
-	SpriteRenderer sr;
-	BoxCollider2D childCollider;
-	Vector3 stageDimensions;
+	private SpriteRenderer sr;
+	private BoxCollider2D childCollider;
+	private Vector3 stageDimensions;
 	void Awake(){
 		
 		//transform.position = new Vector3 (stageDimensions.x, transform.position.y,transform.position.z);
